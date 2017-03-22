@@ -1,0 +1,23 @@
+exports[`<Todo /> renders correctly when completed 1`] = `
+<li
+  onClick={[Function]}
+  style={
+    Object {
+      "textDecoration": "line-through",
+    }
+  }>
+  bar
+</li>
+`;
+
+exports[`<Todo /> renders correctly when not completed 1`] = `
+<li
+  onClick={[Function]}
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }>
+  foo
+</li>
+`;
