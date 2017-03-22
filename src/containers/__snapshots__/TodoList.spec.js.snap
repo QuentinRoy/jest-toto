@@ -1,0 +1,14 @@
+exports[`<TodoList /> renders correctly 1`] = `
+<ul>
+  <Todo
+    completed={false}
+    id={1}
+    onClick={[Function]}
+    text="foo" />
+  <Todo
+    completed={true}
+    id={2}
+    onClick={[Function]}
+    text="bar" />
+</ul>
+`;
