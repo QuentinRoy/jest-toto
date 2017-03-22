@@ -17,4 +17,16 @@ describe('todos reducer', () => {
       { id: 42, text: 'whatever', completed: false }
     ])
   })
+
+  it('toggle the right todo on TOGGLE_TODO actions', () => {
+    const action = { type: 'TOGGLE_TODO', id: 2 }
+    const initialState = [
+      { id: 1, text: 'foo', completed: false },
+      { id: 2, text: 'bar', completed: false }
+    ]
+    expect(todos(initialState, action)).toEqual([
+      { id: 1, text: 'foo', completed: false },
+      { id: 2, text: 'bar', completed: true }
+    ])
+  })
 })
