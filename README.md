@@ -1,4 +1,4 @@
-# Flex tutorial with Redux, React and Enzyme
+# Jest tutorial with Redux, React and Enzyme
 
 ```bash
 git clone https://github.com/QuentinRoy/jest-tutorial.git
